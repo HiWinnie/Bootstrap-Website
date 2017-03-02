@@ -1,0 +1,90 @@
+
+#logo{
+    height: 190%;
+    margin-top: -3px;
+}
+
+.body{
+	margin-top: 10px; padding: 10px;
+	display: block;
+}
+
+
+.about{
+	padding-top: 30px; /*與圖片距離*/
+	height:auto;
+
+
+}
+.about h1 strong{
+	color: #CD0000
+}
+
+
+
+.row-background{
+	background-color: #f8f8f8;
+	height: 100px;
+	display: block;
+	margin-top: 50px; /*與about section的距離*/
+}
+.work{
+	color: #666666; /*灰色*/
+	height: 50px;
+	display: block;
+	margin-bottom: 2px;
+
+}
+
+
+
+.footer{
+	display: block;
+	margin-top: 10px;/*與圖片距離*/
+	padding-top: 30px;/*Footer*/
+	padding-bottom: 20px;/*Footer*/
+	background-color: #141515;
+	color:#767676;
+	height: auto;
+	
+}
+
+
+.jumbotron{
+    padding-right: 90px;
+    padding-left: 90px;
+    margin-top: 50px;
+    margin-bottom: -2px;
+ 	height:auto;
+ 	background-color: #ffffff;
+ 	
+}
+
+.portfolio-item{
+	margin-bottom: 25px;
+}
+
+.img-responsive{
+
+	max-width: 100%;
+	display: block;
+	height: auto;
+
+}
+.thumbnail_hight{
+ 	position: relative;
+    height: 450px;
+    overflow: hidden; /*多出來的部分修剪*/
+}
+
+/*滑鼠移到圖片的變化*/
+.portfolio-item img:hover{
+	opacity: .7;
+}
+
+/*Vertical line 隨著裝置不同而有所變化*/
+@media all and (min-width: 320px) and (max-width: 993px) {
+	.border{
+		border:none !important;
+		}
+}
